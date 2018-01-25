@@ -1,0 +1,3 @@
+type=command
+command=echo "gz_alarm_push_end"
+dependencies=gz_alarm_push_userQuota,gz_alarm_push_appQuota,gz_alarm_push_icpwebQuota,gz_alarm_push_usergroupQuota,gz_alarm_push_deviceQuota,guangzhou_clear_expire_file

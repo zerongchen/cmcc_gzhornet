@@ -1,0 +1,3 @@
+type=command
+command=sh ../shell/guangzhou_clear_expire_file.sh ${START_TIME}
+dependencies=gz_alarm_push_start

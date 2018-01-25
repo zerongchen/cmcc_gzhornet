@@ -1,0 +1,3 @@
+type=command
+command=echo "gz_alarm_push_start !"
+command.1=sh ../param/transfer_param_min.sh ${CITYCODE} ${START_TIME} ${END_TIME}

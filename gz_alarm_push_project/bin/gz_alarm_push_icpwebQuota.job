@@ -1,0 +1,4 @@
+type=command
+command=sh ../shell/guangzhou_icpwebQuota_push.sh ${CITYCODE} ${START_TIME} ${END_TIME}
+command.1=sh ../param/transfer_param_min.sh ${START_TIME} ${END_TIME}
+dependencies=gz_alarm_push_start
